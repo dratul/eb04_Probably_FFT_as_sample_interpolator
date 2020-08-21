@@ -8,7 +8,7 @@
 <b>Discipline | <b>Electronics and Communication Engineering
 :--|:--|
 <b> Lab | <b> Signals and systems
-<b> Experiment|     <b> 1. Plotting of continuous time signals
+<b> Experiment|     <b> 1. Plotting of continuous time signals </b>
 
 <hr>
 
@@ -53,8 +53,8 @@ Read the theory and comprehend the concepts related to the experiment. [LO1, LO2
 
 Sr. No |	Learning Objective	| Task to be performed by <br> the student  in the simulator | Assessment Questions as per LO & Task
 :--|:--|:--|:-:
-1.| Student will be able to understand basic signals | Students should write programs or click on the buttons to visualize the signal and simulator will plot the requested signal | Which kind of signal the following waveform represent <br> <b>A. Step signal </b><br> B. Triangular signal <br> C. sin <br>D. cosine
-2.| Students will be able to analyze basic signals | The basic operations are to be programmed by students and simulator will provide results | Choose the answer after performing following operation over signal A and B <br> A+B*A-B <br> A. Waveform 1 <br> B. Waveform 2 <br><b> C. Waveform 3 </b><br> D. Waveform 4
+1.| Student will be able to understand basic signals | Students should write programs or click on the buttons to visualize the signal and simulator will plot the requested signal | Which kind of signal the following waveform represent <br> *A. Step signal <br> B. Triangular signal <br> C. sin <br>D. cosine
+2.| Students will be able to analyze basic signals | The basic operations are to be programmed by students and simulator will provide results | Choose the answer after performing following operation over signal A and B <br> A+B*A-B <br> A. Waveform 1 <br> B. Waveform 2 <br> *C. Waveform 3<br> D. Waveform 4
 
 
 <div align="right">
