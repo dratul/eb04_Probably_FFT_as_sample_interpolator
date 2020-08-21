@@ -1,56 +1,50 @@
 ## Introduction (Round 0)
 
-Remove this line before submitting : To Refer a filled sample of this template visit here : <br> http://vlabs.iitb.ac.in/gitlab/Community-Docs/New-Lab-development/Samples
-<br>
-
-<b>Discipline | <b>Computer Science
+<b>Discipline | <b>Electronics and Communication Engineering
 :--|:--|
-<b> Lab | <b> Data Science
-<b> Experiment|     <b> 1. (enter the correct experiment number) Name of the experiment
+<b> Lab | <b> Signal and System
+<b> Experiment|     <b> 1. Plotting of continuous time signals
 
 <h5> About the Lab (Objective) : </h5>
 
-Type here: berif description of the lab
+“Signal and system” is core subject of Electronics and Communication Engineering. It introduces the concept of analog and digital signal processing. It is part of curriculum in 2nd year B. Tech. Electronics and communication engineering of Dr. APJ Abdul Kalam Technical University Lucknow in both theory and practical. The practical lab consists of introduction to signals starting from plotting of signals, time and frequency of signals and systems using Fourier, Laplace and Z transform.  
 
 <h5> About the Experiment : </h5>
 
-Type here: berif description of this experiment
+The experiment demonstrates the basic signals and their waveforms.
 
 <h5> Target Audience : </h5>
 
-Type here: the target audience
+Students, Faculties, Researchers in the domain of signal processing
 
 <h5> Course Alignment : </h5>
 
-Type here: courses aligned
+KEC 453 : Signal and Systems
 
 <h5> Universities Mapped : </h5>
 
-Type here: universities mapped
+Dr. APJ Abdul Kalam Technical University, Lucknow
 
-<b>Name of Developer | <b> (of professor only (no prefix Prof/Mr/MRS) - - - - - -
+<b>Name of Developer | <b> Atul Kumar Dwivedi
 :--|:--|
-<b> Institute | <b> My Institute name
-<b> Email id|     <b> abc@example.com
-<b> Department | Name of the department in which you work
+<b> Institute | <b> Bundelkhand Institute of Engineering and Technology, Jhansi
+<b> Email id|     <b> atul.join@gmail.com
+<b> Department | Electronics and Communication Engineering
 
 #### Mentor Details
 
-<b>Mentored by | <b> (of professor only (no prefix Prof/Mr/MRS) - - - - - -
+<b>Mentored by | <b> Anurag Chauhan
 :--|:--|
-<b> Institute | <b> Institute name
-<b> Email id|     <b> abc@example.com
-<b> Department | Name of the department
+<b> Institute | <b> REC Banda
+<b> Email id|     <b> anurag@recbanda.ac.in
+<b> Department | Electrical Engineering
 
 #### Contributors List
 
 SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
-1 | Dhananjay | Faculty | CS | Name of the Insitute, City | abc@example.com
-2 | Full name | Student | Dept Name | Name of the Insitute, City |abc@example.com
-3 | Full name | Student | Dept Name | Name of the Insitute, City |abc@example.com
-4 | Full name | Student | Dept Name | Name of the Insitute, City |abc@example.com
-
-
-<br>
-for more details on Rounds visit : <b> [HERE](http://vlabs.iitb.ac.in/gitlab/Community-Docs/New-Lab-development/List-of-Rounds/blob/master/README.md) </b>
+1 | Atul Kumar Dwivedi | Faculty | ECE | Bundelkhand Institute of Engineering and Technology, Jhansi | atul.join@gmail.com
+2 | Ritesh Rai | Student | CSE | Bundelkhand Institute of Engineering and Technology, Jhansi |riteshrai447@gmail.com
+3 | Maheep | Student | ECE | Bundelkhand Institute of Engineering and Technology, Jhansi |chaudhary.maheep28@gmail.com
+4 | Rohan Saxena | Student | ECE | Bundelkhand Institute of Engineering and Technology, Jhansi |rohaan.saxena14@gmail.com
+5 | Gaurav Yadav | Student | CSE | Bundelkhand Institute of Engineering and Technology, Jhansi |rgy.cse.25@gmail.com
