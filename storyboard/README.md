@@ -1,26 +1,45 @@
 ## Storyboard (Round 2)
 
-Delete this line before submission : The core principle of Round 2 is to make the lab/experiment documentation elaborated in a manner that it makes easy for any person (developer/domain and non domain faculty/student) to understand and develop the lab/experiment.
 
-Experiment 1: Name of the Experiment
+
+Experiment 1: Plotting of continuous time signals
 
 ### 1. Story Outline:
 
-Describe outline Here ( guide : The proposer should first draft the story outline for the proposed outline. This could be 2 or 3 paragraphs.)
+Signal processing is integral part of modern life. It is an important aspect to effective
+communications across mobiles, laptops, satellite, video, radio and all communication systems;
+signal processing makes the processing and transmission of data more efficient.
+The
+experiment given in this virtual lab is about understanding basic signals and analyzing those
+signals using basic operations.
 
 ### 2. Story:
 
-Describe the Story intorduction here (guide : The next step is to write a story. Story should be a brief logical description in simple English. It should talk about the overall execution of the experiment in a simplified manner. (should not include any equations/ drawings). The story should include the following points) )
+In this experiment, students will be able to become familiar with basic signals. Signals are the
+waveforms which carry information. As information has no limit in variety, signals also have no
+limits in its types. However, to start learners should start from basic signals. Some of the basic
+signals of our interest are (1) step signal (2) Impulse signal (3) Exponential signal (4) ramp signal
+and (5) sine signal.
 
 #### 2.1 Set the Visual Stage Description:
-Describe here : (guide When a user lands up into a simulator, the visual stage is the first thing that user comes across. The visual stage should include all the elements to be seen by a user on an imaginary canvas.  (This should NOT include any drawings. ) )
+When a user comes into the simulator, in the first page he will learn about the lab, importance
+of the lab and objectives of the lab. He can learn the theory related to the experiment and
+algorithm to perform experiments. Users are supposed to attempt pre-lab quiz before
+performing experiments in the simulator. Now user can navigate to simulator where he/she can
+perform experiment using a in page simulator and buttons. If user face problem, then he/she
+can use help/hint button to get hint for simulation.
 
 #### 2.2 Set User Objectives & Goals:
-Describe the objectives and goals in details here : (guide : The user should clearly understand the aims and objective of the experiment. ( how he will begin experiment. ?  in descriptive))
+The aims of this experiment are to make user familiar with the basic signals. This is established
+with the help of observation of basic signals, understanding of basic signals and mathematical
+analysis over basic signals.
 
 #### 2.3 Set the Pathway Activities:
 
-Describe the pathway activites here : (Guide : Set the pathway activities in line with the learning objectives (LOs)  & with a view to achieve the goals set in round #0 & round#1.  (once he begins, how he will traverse through the entire experiment ? in descriptive))
+As soon as a user comes to the virtual lab of the signals and systems, he will first understand
+about the lab and about the experiment. After knowing about the experiment he will understand
+objectives of the experiment. User will give pre lab test, perform the experiment. After
+completion of the experiment, user will be exposed
 
 ##### 2.4 Set Challenges and Questions/Complexity/Variations in Questions:
 
