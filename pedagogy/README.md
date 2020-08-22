@@ -35,9 +35,9 @@ Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 <a name="IS"></a>
 #### 3. Instructional Strategy
 ###### Name of Instructional Strategy  :    <u> Expository and guided inquiry
-###### Assessment Method: Expository and guided inquiry
+###### Assessment Method:
 
-<u> <b>Description: </b> This has to included </u>
+<u> <b>Description: </b></u>
 <br/>
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>
