@@ -2,12 +2,12 @@
 <p align="center">
 <br>
 <br>
-<b> Experiment Signals and Systems Lab  <a name="top"></a> <br>
+<b> Experiment Digital Signal Processing Lab  <a name="top"></a> <br>
 </p>
 
 <b>Discipline | <b>Electronics and Communication Engineering
 :--|:--|
-<b> Lab | <b> Signals and systems
+<b> Lab | <b> Digital Signal Processing
 <b> Experiment|     <b> 1. Plotting of continuous time signals </b>
 
 <hr>

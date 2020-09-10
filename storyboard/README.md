@@ -6,7 +6,7 @@ Experiment 1: Plotting of continuous time signals
 
 ### 1. Story Outline:
 
-Signal processing is integral part of modern life. It is an important aspect to effective
+Digital signal processing is integral part of modern life. It is an important aspect to effective
 communications across mobiles, laptops, satellite, video, radio and all communication systems;
 signal processing makes the processing and transmission of data more efficient.
 The
