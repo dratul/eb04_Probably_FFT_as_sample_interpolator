@@ -8,7 +8,7 @@
 <b>Discipline | <b>Electronics and Communication Engineering
 :--|:--|
 <b> Lab | <b> Digital Signal Processing
-<b> Experiment|     <b> 1. Plotting of continuous time signals </b>
+<b> Experiment|     <b> 1. Generation of Basic Signals </b>
 
 <hr>
 

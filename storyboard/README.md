@@ -2,7 +2,7 @@
 
 
 
-Experiment 1: Plotting of continuous time signals
+Experiment 1: Generation of Basic Signals
 
 ### 1. Story Outline:
 

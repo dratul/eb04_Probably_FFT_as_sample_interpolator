@@ -3,7 +3,7 @@
 <b>Discipline | <b>Electronics and Communication Engineering
 :--|:--|
 <b> Lab | <b> Digital Signal Processing
-<b> Experiment|     <b> 1. Plotting of continuous time signals
+<b> Experiment|     <b> 1. Generation of Basic Signals
 
 <h5> About the Lab (Objective) : </h5>
 
@@ -35,7 +35,7 @@ Dr. APJ Abdul Kalam Technical University, Lucknow
 
 <b>Mentored by | <b> Sangeta Arora
 :--|:--|
-<b> Institute | <b> REC Banda
+<b> Institute | <b> KIET
 <b> Email id|     <b> anurag@recbanda.ac.in
 <b> Department | Electrical Engineering
 
