@@ -8,7 +8,7 @@
 <b>Discipline | <b>Electronics and Communication Engineering
 :--|:--|
 <b> Lab | <b> Digital Signal Processing
-<b> Experiment|     <b> 1. Generation of Basic Signals </b>
+<b> Experiment|     <b> 1. To verify FFT as sample interpolator. </b>
 
 <hr>
 
@@ -70,5 +70,5 @@ Sr. No |	Learning Objective	| Task to be performed by <br> the student  in the s
 
 Sr.No | What Students will do? |	What Simulator will do?	| Purpose of the task
 :--|:--|:--|:--:
-1.| Write the program or click on buttons |  Plot the signal  | To understand nature of the signal in time domain.
-2.| Write program for mathematical operations over the signals | Click on the perform mathematical operations | To analyze the signals
+1.| Write the program or click on buttons |  Verify the FFR as interpolator  | To understand nature of the FFT as an interpolator.
+2.| Write program for mathematical operations | Click on the perform operation | To analyze the FFT
