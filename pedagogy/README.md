@@ -18,10 +18,7 @@
 #### 2. Learning Objectives and Cognitive Level
 
 
-Sr. No |	Learning Objective	| Cognitive Level | Action Verb
-<<<<<<< HEAD
-
-
+Sr. No |Learning Objective| Cognitive Level | Action Verb
 :--|:--|:--|:-:
 -|User will be able to
 1.| Demonstratrate  fast Fourier transform | Understand  | Demonstratrate
