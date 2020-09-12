@@ -19,8 +19,9 @@
 
 
 Sr. No |	Learning Objective	| Cognitive Level | Action Verb
-:--|:--|:--|:-:
+
 User will be able to
+:--|:--|:--|:-:
 1.| Understand basics of fast fourier transform | Understand  | Understand
 2.| Analyze samples using fast fourier transform | Analyse | Analyse
 3.| Apply concept of fast Fourier transform for interpolation of samples| Apply |Apply
