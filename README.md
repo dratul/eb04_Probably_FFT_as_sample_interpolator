@@ -3,11 +3,11 @@
 <b>Discipline | <b>Electronics and Communication Engineering
 :--|:--|
 <b> Lab | <b> Digital Signal Processing
-<b> Experiment|     <b> 1. To verify FFT as sample interpolator.
+<b> Experiment|     <b> To verify FFT as sample interpolator.
 
 <h5> About the Lab (Objective) : </h5>
 
-“Digital Signal Processing” is a core subject of Electronics and Communication Engineering. It introduces the concept of analog and digital signal processing. It is part of curriculum in 3rd year B. Tech. Electronics and communication engineering of Dr. APJ Abdul Kalam Technical University Lucknow in both theory and practical. The practical lab consists of introduction to signal processing starting from plotting of signals, time and frequency of signals and systems using Fourier, Laplace and Z transform to Design of digital Filters.   
+“Digital Signal Processing” is a core subject of Electronics and Communication Engineering. It introduces the concept of analog and digital signal processing. It is part of curriculum in 3rd year B. Tech. Electronics and communication engineering of Dr. APJ Abdul Kalam Technical University Lucknow in both theory and practical. The practical lab consists of introduction to signal processing starting from generation of signals, time and frequency of signals and systems using Fourier, Laplace and Z transform to Design of digital Filters.   
 
 <h5> About the Experiment : </h5>
 
