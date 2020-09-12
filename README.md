@@ -7,7 +7,7 @@
 
 <h5> About the Lab (Objective) : </h5>
 
-“Digital Signal Processing” is a core subject of Electronics and Communication Engineering. It introduces the concept of analog and digital signal processing. It is part of curriculum in 3rd year B. Tech. Electronics and communication engineering of Dr. APJ Abdul Kalam Technical University Lucknow in both theory and practical. The practical lab consists of introduction to signal processing starting from generation of signals, time and frequency of signals and systems using Fourier, Laplace and Z transform to Design of digital Filters.   
+“Digital Signal Processing” is a core subject of Electronics and Communication Engineering. It introduces the concept of analog and digital signal processing. The lab consists of introduction to signal processing starting from generation of signals, time and frequency of signals and systems using Fourier, Laplace and Z transform to Design of digital Filters.   
 
 <h5> About the Experiment : </h5>
 
@@ -35,7 +35,7 @@ Dr. APJ Abdul Kalam Technical University, Lucknow
 
 <b>Mentored by | <b> Sangeta Arora
 :--|:--|
-<b> Institute | <b> KIET
+<b> Institute | <b> KIET Group of Institutions, Delhi-NCR, Ghaziabad
 <b> Email id|     <b> sangeeta.arora@kiet.edu
 <b> Department | Computer Applications
 
@@ -43,8 +43,7 @@ Dr. APJ Abdul Kalam Technical University, Lucknow
 
 SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
-1 | Atul Kumar Dwivedi | Faculty | ECE | Bundelkhand Institute of Engineering and Technology, Jhansi | atul.join@gmail.com
-2 | Ritesh Rai | Student | CSE | Bundelkhand Institute of Engineering and Technology, Jhansi |riteshrai447@gmail.com
-3 | Maheep | Student | ECE | Bundelkhand Institute of Engineering and Technology, Jhansi |chaudhary.maheep28@gmail.com
-4 | Rohan Saxena | Student | ECE | Bundelkhand Institute of Engineering and Technology, Jhansi |rohaan.saxena14@gmail.com
-5 | Gaurav Yadav | Student | CSE | Bundelkhand Institute of Engineering and Technology, Jhansi |rgy.cse.25@gmail.com
+1 | Ritesh Rai | Student | CSE | Bundelkhand Institute of Engineering and Technology, Jhansi |riteshrai447@gmail.com
+2 | Maheep | Student | ECE | Bundelkhand Institute of Engineering and Technology, Jhansi |chaudhary.maheep28@gmail.com
+3 | Rohan Saxena | Student | ECE | Bundelkhand Institute of Engineering and Technology, Jhansi |rohaan.saxena14@gmail.com
+4 | Gaurav Yadav | Student | CSE | Bundelkhand Institute of Engineering and Technology, Jhansi |rgy.cse.25@gmail.com
