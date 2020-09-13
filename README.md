@@ -5,7 +5,7 @@
 <b> Lab | <b> Digital Signal Processing
 <b> Experiment|     <b> To verify FFT as sample interpolator.
 
-<h5> About the Lab (Objective) : </h5>
+<h5> About the Lab (Objectives) : </h5>
 
 “Digital Signal Processing” is a core subject of Electronics and Communication Engineering. It introduces the concept of analog and digital signal processing. The lab consists of introduction to signal processing starting from generation of signals, time and frequency of signals and systems using Fourier, Laplace and Z transform to Design of digital Filters.   
 
