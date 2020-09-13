@@ -20,7 +20,7 @@
 Sr. No |Learning Objective| Cognitive Level | Action Verb
 :--|:--|:--|:-:
 -|User will be able to
-1.| Demonstratrate  samples to be interpolated | Understand  | Demonstratrate
+1.| Demonstratrate  samples to be interpolated | Understand  | Demonstrate
 2.| Inspect FFT of the samples  | Analyse | Inspect
 3.| Experiment with concept of fast Fourier transform for interpolation of samples| Apply |Experiment
 
@@ -33,10 +33,11 @@ Sr. No |Learning Objective| Cognitive Level | Action Verb
 
 <a name="IS"></a>
 #### 3. Instructional Strategy
- Name of Instructional Strategy  :    <u> Guided inquiry
+ Name of Instructional Strategy  :  Expository and  <u> Guided inquiry
  ##### Assessment Method: Formative
 
 <u> <b>Description: </b></u>
+The outcome of the experiment can be predicted by the user based on the conceptual understanding experiment. In addition to this used may change no of points in FFT and observe the output.  
 <br/>
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>
@@ -44,8 +45,9 @@ Sr. No |Learning Objective| Cognitive Level | Action Verb
 <br/>
 <hr>
 
+
 <a name="AQ"></a>
-#### 4. Task & Assessment Questions:
+####  4. Task & Assessment Questions:
 
 Read the theory and comprehend the concepts related to the experiment. [LO1, LO2, LO3]
 <br>
@@ -54,7 +56,7 @@ Sr. No |	Learning Objective	| Task to be performed by <br> the user  in the simu
 :--|:--|:--|:-:
 1.| User be able to demonstratrate samples to be interpolated | User should click on the buttons to visualize the samples and simulator will provide the required samples | Are you able to observe the samples
 2.| User will be able to inspect FFT of the samples | Based on the samples submitted by the user simulator will perform fast fourier transform and provide resulting coefficients | Please answer about the type of FFT Coefficients. Are they real, imaginary or complex 
-
+3.| Experiment with concept of fast Fourier transform for interpolation of samples | Based on the FFT coefficients obtained simulator will perform interpolation and provide resulting waveform | Are you able to observe curve of interpolation
 
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>
