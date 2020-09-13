@@ -15,7 +15,7 @@ signals using fast Fourier transform. A FFT , the purpose is to apply FFT in int
 
 ### 2. Story:
 
-In this experiment, students will be able to become familiar with basic signals. Signals are the
+In this experiment, user will be able to become familiar with sampling signals. Signals are the
 waveforms which carry information. As information has no limit in variety, signals also have no
 limits in its types. However, to start learners should start from basic signals. Some of the basic
 signals of our interest are (1) step signal (2) Impulse signal (3) Exponential signal (4) ramp signal
