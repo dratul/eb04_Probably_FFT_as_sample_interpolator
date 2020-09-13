@@ -2,7 +2,7 @@
 
 
 
-Experiment 1: Generation of Basic Signals
+Experiment: To verify FFT as sample interpolator
 
 ### 1. Story Outline:
 
@@ -10,8 +10,8 @@ Digital signal processing is integral part of modern life. It is an important as
 communications across mobiles, laptops, satellite, video, radio and all communication systems;
 signal processing makes the processing and transmission of data more efficient.
 The
-experiment given in this virtual lab is about understanding basic signals and analyzing those
-signals using basic operations.
+experiment given in this virtual lab is about understanding sampling of signals and analyzing those
+signals using fast Fourier transform. A FFT , the purpose is to apply FFT in interpolation of samples
 
 ### 2. Story:
 
