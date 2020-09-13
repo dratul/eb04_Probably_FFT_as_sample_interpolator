@@ -15,15 +15,11 @@ signals using fast Fourier transform. A FFT , the purpose is to apply FFT in int
 
 ### 2. Story:
 
-In this experiment, user will be able to become familiar with sampling signals. Signals are the
-waveforms which carry information. As information has no limit in variety, signals also have no
-limits in its types. However, to start learners should start from basic signals. Some of the basic
-signals of our interest are (1) step signal (2) Impulse signal (3) Exponential signal (4) ramp signal
-and (5) sine signal.
+In this experiment, user will be able to become familiar with sampling of signals. Signals are the
+waveforms which carry information. As information has no limit in variety, signals also have no limits in its types. However, to start learners should start from basic signals. Some of the basic signals
 
 #### 2.1 Set the Visual Stage Description:
-When a user comes into the simulator, in the first page he will learn about the lab, importance
-of the lab and objectives of the lab. He can learn the theory related to the experiment and
+When a user comes into the simulator, in the first page he will learn about the lab, importance of the lab and objectives of the lab. He can learn the theory related to the experiment and
 algorithm to perform experiments. Users are supposed to attempt pre-lab quiz before
 performing experiments in the simulator. Now user can navigate to simulator where he/she can
 perform experiment using a in page simulator and buttons. If user face problem, then he/she
@@ -39,7 +35,7 @@ analysis over basic signals.
 As soon as a user comes to the virtual lab of the signals and systems, he will first understand
 about the lab and about the experiment. After knowing about the experiment he will understand
 objectives of the experiment. User will give pre lab test, perform the experiment. After
-completion of the experiment, user will be exposed
+completion of the experiment, user will be exposed to interpolation of the samples with the help of FFT.
 
 ##### 2.4 Set Challenges and Questions/Complexity/Variations in Questions:
 
