@@ -1,7 +1,4 @@
 ## Storyboard (Round 2)
-
-
-
 Experiment: To verify FFT as sample interpolator
 
 ### 1. Story Outline:
@@ -15,24 +12,22 @@ signals using fast Fourier transform.
 
 The story for this experiment begins with the user drwing line beween two points. The line describes the behaviour of a function connecting two points. If behavious of the fucntion is linear, then it is very easy to estimate. However, if the behaviour of the function is non-linear then it becomes challanging. 
 
-In the second scene, user tries to model nono-linear function of the given samples of data. The challange is even more if user have less data points of samples. the challenge becomes easy if number of sample points are more. 
+In the second scene, user tries to model non-linear function of the given samples of data. The challange is even more if user have less data points of samples. the challenge becomes easy if number of sample points are more. In addition to challange based on data points, challange lies in the selection on polynomial. The order of polynomial to usually increased to reduce approximation. Increasing the order of polynomial increses computational complexity. A mathamatician Carl Friedrich Gauss discovered a model for computing coeffcients of a polynomial for interpolation. This model divides interpolating polynomial into smaller subparts of sninusoidal and cosine waveforms.   
 
 In this experiment, user will be able to become familiar with sampling of signals. Signals are the waveforms which carry information. As information has no limit in variety, signals also have no limits in its types. However, to start learners should start from basic signals. Some of the basic signals
 
 #### 2.1 Set the Visual Stage Description:
-When an user comes into the simulator, in the first page he/she will learn about the lab, importance of the lab and objectives of the lab. He/she can learn the theory related to the experiment and
-algorithm to perform experiments. Users are supposed to attempt pre-lab quiz before
-performing experiments in the simulator. Now user can navigate to simulator where he/she can
-perform experiment using a in page simulator and buttons. 
+When any user comes into the simulator, in the first page he/she will learn about the lab, importance of the lab and objectives of the lab. He/she can learn the theory related to the experiment and
+algorithm to perform experiments. Users will be able to observe a pre-lab quiz before
+performing experiments in the simulator. User will also see a program code of simulator with start button.
 
 #### 2.2 Set User Objectives & Goals:
-User should  able to demonstratrate samples to be interpolated. User will be able to inspect FFT of the samples. Experiment with concept of fast Fourier transform for interpolation of samples
+The main objective of the user is to learn how FFT works as interpolation. He/She will be able observe samples to be interpolated. User will be able to inspect FFT of the samples and perform some exaperiments with concept of fast Fourier transform for interpolation of samples. User should experiment with different data samples also.
+
 #### 2.3 Set the Pathway Activities:
 
 As soon as an user comes to the virtual lab, he/she will first understand
-about the lab and about the experiment. After knowing about the experiment he/she will understand
-objectives of the experiment. User will give pre lab test, perform the experiment. After
-completion of the experiment, user will be exposed to interpolation of the samples with the help of FFT.
+about the lab and about the experiment. After knowing about the experiment he/she will understand objectives of the experiment. User will give pre lab test, perform the experiment. After completion of the experiment, user will be exposed to post experiment quiz. 
 
 ##### 2.4 Set Challenges and Questions/Complexity/Variations in Questions:
 
@@ -42,7 +37,7 @@ In order to assure quality of learning, after simulation users are moved to sele
 The Simulator is designed to provide maximum ease to the user to understand the programming of MATLAB required for completion of the required task . however, he/she may feel difficult to set proper sample values in the input.
 
 ##### 2.6 Conclusion:
-Describe conclusion here : (guide: This may include displaying: how much time did the user take to solve the questions/ How many questions were right?/ How many hints did the learner use. Based on this the evaluation/marking to be suggested to the user. (once he is towards the completion of the experiment, what LO he is taking along with him, what will be his probable, interpretation/conclusion , descriptive) )
+In this experiment user will be able to learn FFT as interpolator. He/She will be able to learn the concept in five experiment. Learners should pay attention on the comments appearing with the code for better understanding. Based on the marking recieved by the learner, he/she can undrstand the which leaning outcome (LO) taken along with him.
 
 ##### 2.7 Equations/formulas: NA
 Type equations here : (guide : ( a separate sheet having equations / programs for the lab exper3ment to be shared along with the Story submissions (1) . You can mark it as numerical reference numbers within the story narration (like we cite in the research papers) and then separately share these equations/programs sheets as a reference, do not include the equations as a whole in the narration))
@@ -50,16 +45,15 @@ Tool can be used to integrate formula in Markdown <b> [here](http://latex.codeco
 
 
 ### 3. Flowchart 4
-<img src="flowchart/flowchart.png"/><br>
-link to flow chart Here : Store in the  /flowchart folder within Round2 folder in your repo
+<img src="flowchart/Flow_Chart.png"/> 
 <br>
-(guide :The lab proposer should extract logic from the story, prepare a flowchart from the story narration and write the algorithm to execute the black box.  use Google Drawings https://docs.google.com/drawings/ (send the link to your flowchart and also attach .png by exporting it )
+
 
 ### 4. Mindmap:
 <img src="mindmap/mindmap.png"/>
- Link to mindmap here : Store the mindmap in both .mm & .png extension in the  /mindmap folder and include link of only .pdf verison here
+
  <br>
- (guide : An elaborate mind map (connecting all the points in the experiment flow ) should be prepared and submitted by the lab proposer. The mind map should be a clear and detailed document that takes into account all minute intri5acies involved in the development of virtual lab. The mindmap should be self-content and any developer across the globe should be able to code it with all those details. using only FreeMind http://freemind.sourceforge.net/wiki/index.php/Main_Page (send the .png file and also the original .mm extension project file. )
+
 
 ### 5. Storyboard :
 Storyboard: <a href="Storyboard/carwiper.gif"> [here]</a>
