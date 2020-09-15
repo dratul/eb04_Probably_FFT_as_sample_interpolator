@@ -20,7 +20,7 @@ In the second scene, user tries to model nono-linear function of the given sampl
 In this experiment, user will be able to become familiar with sampling of signals. Signals are the waveforms which carry information. As information has no limit in variety, signals also have no limits in its types. However, to start learners should start from basic signals. Some of the basic signals
 
 #### 2.1 Set the Visual Stage Description:
-When a user comes into the simulator, in the first page he/she will learn about the lab, importance of the lab and objectives of the lab. He/she can learn the theory related to the experiment and
+When an user comes into the simulator, in the first page he/she will learn about the lab, importance of the lab and objectives of the lab. He/she can learn the theory related to the experiment and
 algorithm to perform experiments. Users are supposed to attempt pre-lab quiz before
 performing experiments in the simulator. Now user can navigate to simulator where he/she can
 perform experiment using a in page simulator and buttons. 
@@ -29,17 +29,17 @@ perform experiment using a in page simulator and buttons.
 User should  able to demonstratrate samples to be interpolated. User will be able to inspect FFT of the samples. Experiment with concept of fast Fourier transform for interpolation of samples
 #### 2.3 Set the Pathway Activities:
 
-As soon as a user comes to the virtual lab, he/she will first understand
+As soon as an user comes to the virtual lab, he/she will first understand
 about the lab and about the experiment. After knowing about the experiment he/she will understand
 objectives of the experiment. User will give pre lab test, perform the experiment. After
 completion of the experiment, user will be exposed to interpolation of the samples with the help of FFT.
 
 ##### 2.4 Set Challenges and Questions/Complexity/Variations in Questions:
 
-The Simulator is designed to provide maximum ease to the user to understand the programming of MATLAB required for completion of the required task . however, he/she
+In order to assure quality of learning, after simulation users are moved to select question level (1) simple (2) moderate and (3) complex 
 
 ##### 2.5 Allow pitfalls:
-Describe the pitfalls here: (guide : (while traversing or while solving challenge, how will we bring a situation in front of him that he commits mistake if he is not attentive , or not following procedure , descriptive))
+The Simulator is designed to provide maximum ease to the user to understand the programming of MATLAB required for completion of the required task . however, he/she may feel difficult to set proper sample values in the input.
 
 ##### 2.6 Conclusion:
 Describe conclusion here : (guide: This may include displaying: how much time did the user take to solve the questions/ How many questions were right?/ How many hints did the learner use. Based on this the evaluation/marking to be suggested to the user. (once he is towards the completion of the experiment, what LO he is taking along with him, what will be his probable, interpretation/conclusion , descriptive) )
