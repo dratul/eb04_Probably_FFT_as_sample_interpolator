@@ -7,7 +7,7 @@
 
 <h5> About the Lab (Objectives) : </h5>
 
-Digital Signal Processing is used by all the computing machines for information generation and transmission. In this lab user will learn sampling of infomation, frequency transformation of signals, fast Fourier transform, application of fast Fourier transform for interpolation os samples, Laplace trsnsdform, Z transform and design of digital Filters.   
+Digital Signal Processing is used by all the computing machines for information generation and transmission of information. In this lab user will learn sampling of infomation, frequency transformation of signals, fast Fourier transform, application of fast Fourier transform for interpolation os samples, Laplace trsnsdform, Z transform and design of digital Filters.   
 
 <h5> About the Experiment : </h5>
 

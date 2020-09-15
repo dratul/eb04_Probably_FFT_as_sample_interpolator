@@ -19,10 +19,12 @@
 
 Sr. No |Learning Objective| Cognitive Level | Action Verb
 :--|:--|:--|:-:
--|User will be able to
-1.| Demonstratrate  samples to be interpolated | Understand  | Demonstrate
-2.| Inspect FFT of the samples  | Analyse | Inspect
-3.| Experiment with concept of fast Fourier transform for interpolation of samples| Apply |Experiment
+-|
+1.| User will be able to demonstratrate  samples to be interpolated | Understand  | Demonstrate
+2.| User will be able to experiment with concept of fast Fourier transform for interpolation of samples| Apply |
+3.| User will be able to inspect FFT of the samples  | Analyse | Inspect
+
+Experiment
 
 <br/>
 <div align="right">
@@ -37,7 +39,7 @@ Sr. No |Learning Objective| Cognitive Level | Action Verb
  ##### Assessment Method: Formative
 
 <u> <b>Description: </b></u>
-The outcome of the experiment can be predicted by the user based on the conceptual understanding experiment. In addition to this used may change no of points in FFT and observe the output.  
+This experiment is for the users who have understood the concepts of Fourier series, Fourier Transform and fast Fourier transform(FFT). The outcome of the experiment can be predicted by the user based on the conceptual understanding of FFT. In addition to this, user may change samples and observe the output therefore guided inquiry. Assesment will be taken formally through quiz questions.  
 <br/>
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>
