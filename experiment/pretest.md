@@ -1,14 +1,14 @@
 ## <b> Pre-test
 #### Please attempt the following questions
   
-1. What is the ration of on-time and off-time in a square wave?<br>
-A. 1:2<br>
-B. 2:1<br>
-<b>C. 1:1</b><br>
+1. Fourier Trnsform is used ?<br>
+A. Scaling of samples<br>
+B. Expansion of sampls<br>
+<b>C.Transforning into frequency domain</b><br>
 D. 1:4<br><br>
 
-2. What is the meaning of SJMP?<br>
-A. Small Jump<br>
-<b>B. Shot Jump</b><br>
-C. Jump<br>
+2. Sampling theorem was given by ?<br>
+A. Fourier<br>
+<b>B. Claude Shannon</b><br>
+C. Nyquist<br>
 D. None<br>
