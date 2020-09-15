@@ -55,7 +55,7 @@ Read the theory and comprehend the concepts related to the experiment. [LO1, LO2
 
 Sr. No |	Learning Objective	| Task to be performed by <br> the user  in the simulator | Assessment Questions as per LO & Task
 :--|:--|:--|:-:
-1.| User be able to demonstratrate samples to be interpolated | User should click on the buttons to visualize the samples and simulator will provide the required samples | Are you able to observe the samples (A) Yes (B) No
+1.| User be able to demonstratrate samples to be interpolated | User should click on the buttons to visualize the samples and simulator will provide the required samples | Are you able to observe the samples _(A) Yes_ (B) No
 2.| User will be able to inspect FFT of the samples | Based on the samples submitted by the user simulator will perform fast fourier transform and provide resulting coefficients | Please answer about the type of FFT Coefficients. Are they (A) real, (B) imaginary or (C) complex 
 3.| Experiment with concept of fast Fourier transform for interpolation of samples | Based on the FFT coefficients obtained simulator will perform interpolation and provide resulting waveform | Are you able to observe curve of interpolation (A) Yes (B) No
 

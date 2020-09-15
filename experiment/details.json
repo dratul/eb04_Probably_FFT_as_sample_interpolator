@@ -2,18 +2,18 @@
 
    "details": [
        {
-			"Experiment": "",     
-			"Lab": "",               
-			"Discipline": "",				 
+			"Experiment": "To verify FFT as interpolator",     
+			"Lab": "Digital Signal Processing LAb",               
+			"Discipline": "Electronics and Communication engineering",				 
 			"Technology": ""         
        }
    ],
 
    "developer": [
        {       
-      "Developer": "",         
-      "Institute": "",         
-      "InstituteAcronym": ""   
+      "Developer": "Atul Kumar Dwivedi",         
+      "Institute": "Bundelkhad Institute of Engineering and Technology",         
+      "InstituteAcronym": "BIET"   
        }
    ],
 
