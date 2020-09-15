@@ -1,1 +1,1 @@
-### 8051 Microcontroller and Application Lab
+### Digital Signal Processing Lab

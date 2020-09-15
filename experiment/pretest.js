@@ -90,25 +90,25 @@
 
   const myQuestions = [
     {
-      question: "What is the ration of on-time and off-time in a square wave?",  ///// Write the question inside double quotes
+      question: "What is the ideal sampling rate by Nyquist criterion for signal of frequency fm ?",  ///// Write the question inside double quotes
       answers: {
-        a: "1:2",                  ///// Write the option 1 inside double quotes
-        b: "2:1",                  ///// Write the option 2 inside double quotes
-        c: "1:1",                  ///// Write the option 3 inside double quotes
-        d: "1:4"                   ///// Write the option 4 inside double quotes
+        a: "fm",                  ///// Write the option 1 inside double quotes
+        b: "2fm",                  ///// Write the option 2 inside double quotes
+        c: "fm/2",                  ///// Write the option 3 inside double quotes
+        d: "None of these"                   ///// Write the option 4 inside double quotes
       },
-      correctAnswer: "c"                ///// Write the correct option inside double quotes
+      correctAnswer: "b"                ///// Write the correct option inside double quotes
     },
 
     {
-     question: "What is the meaning of SJMP?",  ///// Write the question inside double quotes
+     question: "FFT is valid for?",  ///// Write the question inside double quotes
       answers: {
-        a: "Small Jump",                  ///// Write the option 1 inside double quotes
-        b: "Shot Jump",                  ///// Write the option 2 inside double quotes
-        c: "Jump",                  ///// Write the option 3 inside double quotes
+        a: "Scaling of samples",                  ///// Write the option 1 inside double quotes
+        b: "Curve fitting of samples",                  ///// Write the option 2 inside double quotes
+        c: "Transforming samples in frequency domain",                  ///// Write the option 3 inside double quotes
         d: "None"                   ///// Write the option 4 inside double quotes
       },
-      correctAnswer: "b"                ///// Write the correct option inside double quotes
+      correctAnswer: "c"                ///// Write the correct option inside double quotes
     },                                  ///// To add more questions, copy the section below 
     									                  ///// this line
 

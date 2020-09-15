@@ -90,22 +90,22 @@
 
   const myQuestions = [
     {
-      question: "Which line is responsible for switching of square wave between high and low?",  ///// Write the question inside double quotes
+      question: "What do you mean by interpolation?",  ///// Write the question inside double quotes
       answers: {
-        a: "SJMP squarewave",                  ///// Write the option 1 inside double quotes
-        b: "CPL P1.0",                  ///// Write the option 2 inside double quotes
-        c: "ACALL Delay",                  ///// Write the option 3 inside double quotes
+        a: "Adding and estimating internal points",                  ///// Write the option 1 inside double quotes
+        b: "Adding and estimating external points",                  ///// Write the option 2 inside double quotes
+        c: "Removing samples",                  ///// Write the option 3 inside double quotes
         d: "None"                   ///// Write the option 4 inside double quotes
       },
-      correctAnswer: "b"                ///// Write the correct option inside double quotes
+      correctAnswer: "a"                ///// Write the correct option inside double quotes
     },
 
     {
-      question: "Which line is responsible for the horizontal lines seen on the graph?",  ///// Write the question inside double quotes
+      question: "What is FFT?",  ///// Write the question inside double quotes
       answers: {
-        a: "SJMP squarewave",                  ///// Write the option 1 inside double quotes
-        b: "CPL P1.0",                  ///// Write the option 2 inside double quotes
-        c: "ACALL Delay",                  ///// Write the option 3 inside double quotes
+        a: "Free Fourier transform",                  ///// Write the option 1 inside double quotes
+        b: "Fast Fourier Transform",                  ///// Write the option 2 inside double quotes
+        c: "Fast Fractal Transition",                  ///// Write the option 3 inside double quotes
         d: "None"                   ///// Write the option 4 inside double quotes
       },
       correctAnswer: "c"                ///// Write the correct option inside double quotes
