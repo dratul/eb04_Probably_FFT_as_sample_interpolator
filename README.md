@@ -15,7 +15,7 @@ The experiment demonstrates the Fast Fourier Transform and its working as sample
 
 <h5> Target Audience : </h5>
 
-Students, Faculties, Researchers in the domain of signal processing
+Students, faculties and researchers in the domain of signal processing
 
 <h5> Course Alignment : </h5>
 
