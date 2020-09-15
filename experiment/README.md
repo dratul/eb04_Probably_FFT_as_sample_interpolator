@@ -51,8 +51,8 @@ D. None of these<br>
 
 2. FFT is?<br>
 A. Fourier Fractional Transfom<br>
-B. Fast Fourier Transform<br>
-<b>C. Fourier Fractal Tension</b><br>
+<b>B. Fast Fourier Transform</b><br>
+C. Fourier Fractal Tension<br>
 D. None<br>
 
 ### References
