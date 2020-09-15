@@ -22,10 +22,12 @@ FFT Calculation: m = length(y);     # Calculating the length
 This MATLAB program guides to compute FFT coeffcients which are used to compute polynomial coeffcient using Gauss Model.
 
 ### Procedure
-The user inputs the delay he/she wants  and sees a squarewave corresponding to that delay.If the user wants to give the frequency , then he/she must find half of the inverse of frequency.
-
-<pre><code>DELAY = 1/(2 * FREQUENCY)
-</code></pre>
+This experiment can be completed by the user in following steps
+Step 1: The user inputs the samples data.
+Step 2: He/She will be able to observe plot of input samples.
+Step 3: FFT will be performed 
+Step 4: FFT coeffcints will modelled in a polynomial specified in the Gauss Model
+Step 5: plot Interpolating polynomial with samples  
 
 ### Pre Test
 1. What is the ration of on-time and off-time in a square wave?<br>
@@ -41,19 +43,19 @@ C. Jump<br>
 D. None<br>
 
 ### Post Test
-1. Which line is responsible for switching of square wave between high and low?<br>
-A. SJMP squarewave<br>
-<b>B. CPL P1.0</b><br>
-C. ACALL Delay<br>
-D. None<br>
+1. Interpolation is ?<br>
+A. Finding data outside the given oints<br>
+<b>B. Finding data inside the given points</b><br>
+C. Drawing a line between two points<br>
+D. None of these<br>
 
-2. Which line is responsible for the horizontal lines seen on the graph?<br>
-A. SJMP squarewave<br>
-B. CPL P1.0<br>
-<b>C. ACALL Delay</b><br>
+2. FFT is?<br>
+A. Fourier Fractional Transfom<br>
+B. Fast Fourier Transform<br>
+<b>C. Fourier Fractal Tension</b><br>
 D. None<br>
 
 ### References
 > [1] B. Gold and L. Rabiner, Theory and Application of Digital Signal Processing, Prentice Hall, Upper Saddle River, New Jersey, 1975, page no 54.
 
-[2] J. Proakis and D. Manolakis, Digital Signal Processing-Principles, Algorithms, and Applications, 3rd Edition, Prentice Hall,, New Jersey, page no 408.
+>[2] J. Proakis and D. Manolakis, Digital Signal Processing-Principles, Algorithms, and Applications, 3rd Edition, Prentice Hall,, New Jersey, page no 408.
