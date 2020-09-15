@@ -19,9 +19,8 @@
 
 Sr. No |Learning Objective| Cognitive Level | Action Verb
 :--|:--|:--|:-:
--|
 1.| User will be able to demonstratrate  samples to be interpolated | Understand  | Demonstrate
-2.| User will be able to experiment with concept of fast Fourier transform for interpolation of samples| Apply |
+2.| User will be able to experiment with concept of fast Fourier transform for interpolation of samples| Apply | Experiment with
 3.| User will be able to inspect FFT of the samples  | Analyse | Inspect
 
 Experiment
