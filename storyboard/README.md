@@ -19,27 +19,24 @@ In this experiment, user will be able to become familiar with sampling of signal
 waveforms which carry information. As information has no limit in variety, signals also have no limits in its types. However, to start learners should start from basic signals. Some of the basic signals
 
 #### 2.1 Set the Visual Stage Description:
-When a user comes into the simulator, in the first page he will learn about the lab, importance of the lab and objectives of the lab. He can learn the theory related to the experiment and
+When a user comes into the simulator, in the first page he/she will learn about the lab, importance of the lab and objectives of the lab. He/she can learn the theory related to the experiment and
 algorithm to perform experiments. Users are supposed to attempt pre-lab quiz before
 performing experiments in the simulator. Now user can navigate to simulator where he/she can
-perform experiment using a in page simulator and buttons. If user face problem, then he/she
-can use help/hint button to get hint for simulation.
+perform experiment using a in page simulator and buttons. 
 
 #### 2.2 Set User Objectives & Goals:
-The aims of this experiment are to make user familiar with the basic signals. This is established
-with the help of observation of basic signals, understanding of basic signals and mathematical
-analysis over basic signals.
+User should 
 
 #### 2.3 Set the Pathway Activities:
 
-As soon as a user comes to the virtual lab of the signals and systems, he will first understand
-about the lab and about the experiment. After knowing about the experiment he will understand
+As soon as a user comes to the virtual lab, he/she will first understand
+about the lab and about the experiment. After knowing about the experiment he/she will understand
 objectives of the experiment. User will give pre lab test, perform the experiment. After
 completion of the experiment, user will be exposed to interpolation of the samples with the help of FFT.
 
 ##### 2.4 Set Challenges and Questions/Complexity/Variations in Questions:
 
-Describe the challenges Here : (guide : Set Challenges and Questions/Complexity/variations in questions according to User’s level, so as to invoke the learners’ interest.  (while traversing, what challenges he will face? how he has to solve and overcome ? descriptive).)
+The Simulator is designed to provide maximum ease to the user to understand the programming of MATLAB required for completion of the required task . however, he/she
 
 ##### 2.5 Allow pitfalls:
 Describe the pitfalls here: (guide : (while traversing or while solving challenge, how will we bring a situation in front of him that he commits mistake if he is not attentive , or not following procedure , descriptive))
