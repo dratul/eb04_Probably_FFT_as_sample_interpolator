@@ -5,18 +5,19 @@
 Experiment: To verify FFT as sample interpolator
 
 ### 1. Story Outline:
-
 Digital signal processing is integral part of modern life. It is an important aspect to effective
 communications across mobiles, laptops, satellite, video, radio and all communication systems;
-signal processing makes the processing and transmission of data more efficient.
-The
+signal processing makes the processing and transmission of data more efficient.The
 experiment given in this virtual lab is about understanding sampling of signals and analyzing those
-signals using fast Fourier transform. A FFT , the purpose is to apply FFT in interpolation of samples
+signals using fast Fourier transform. 
 
 ### 2. Story:
 
-In this experiment, user will be able to become familiar with sampling of signals. Signals are the
-waveforms which carry information. As information has no limit in variety, signals also have no limits in its types. However, to start learners should start from basic signals. Some of the basic signals
+The story for this experiment begins with the user drwing line beween two points. The line describes the behaviour of a function connecting two points. If behavious of the fucntion is linear, then it is very easy to estimate. However, if the behaviour of the function is non-linear then it becomes challanging. 
+
+In the second scene, user tries to model nono-linear function of the given samples of data. The challange is even more if user have less data points of samples. the challenge becomes easy if number of sample points are more. 
+
+In this experiment, user will be able to become familiar with sampling of signals. Signals are the waveforms which carry information. As information has no limit in variety, signals also have no limits in its types. However, to start learners should start from basic signals. Some of the basic signals
 
 #### 2.1 Set the Visual Stage Description:
 When a user comes into the simulator, in the first page he/she will learn about the lab, importance of the lab and objectives of the lab. He/she can learn the theory related to the experiment and
@@ -25,8 +26,7 @@ performing experiments in the simulator. Now user can navigate to simulator wher
 perform experiment using a in page simulator and buttons. 
 
 #### 2.2 Set User Objectives & Goals:
-User should 
-
+User should  able to demonstratrate samples to be interpolated. User will be able to inspect FFT of the samples. Experiment with concept of fast Fourier transform for interpolation of samples
 #### 2.3 Set the Pathway Activities:
 
 As soon as a user comes to the virtual lab, he/she will first understand
