@@ -1,52 +1,286 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-        <h1 class="head">Simulator for Square Wave Generation using 8051 Microcontroller</h1>
-    <section>
-        <div class="flex-container">
-            <div class="left">
-                <h3>Input</h3>
-                <div class="bt-group">
-                    <span style="color: white;">Delay: <input id="delay_in" type="number" step="any" min="1" value="50" onchange="delayChange(this)" onkeypress="this.onchange()" onpaste="this.onchange()" oninput="this.onchange()"></span>
-                    <button onclick="signal0()" class="sel_button" id="button0">Take 0 as input</button>
-                    <button onclick="signal1()" id="button1">Take 1 as input</button>
-                    <button onclick="clearScreen()">Clear</button>
-                    <button onclick="start(this)" id="startBT">Start</button>
-                    <span class="error-text" id="error_message"></span>
-                </div>
-            </div>
-            <div class="middle">
-                <h3>Code</h3>
-                <p class="codelinefirst">Squarewave: <span id="line1">CPL P1.0</span></p>
-                <p class="codeline" id="line2">ACALL <span id="delay">50</span></p>
-                <p class="codeline" id="line3">SJMP Squarewave</p>
-                <h3>Instructions</h3>
-                <ol>
-                    <li>First calculate the delay time using frequency and write it in the Delay input box.</li>
-                    <li>Then choose the input as 0 or 1 by clicking on the corresponding buttons.</li>
-                    <li>In the first statement we complement the contents of port 1.0.</li>
-                    <li>Then we call the delay program and the square wave is generated.</li>
-                    <li>Then we jump back to the first statement.</li>
-                    <li>The student can pause the waves and calculate the frequency by observing the time period of the waves and verify.</li>
-                </ol>
-            </div>
-            <div id="sContainer">
-                <div class="right">
-                    <h3>Working</h3>
-                    <canvas id="myCanvas"></canvas>
-                    <img src="images/img1.jpeg" alt="microcontoller">
-                </div>
-                <canvas id="outerCanvas"></canvas>
-            </div>
-            <script src="js/index.js"></script>
+	<center>
+        <div >
+            <h1 style="margin: 0; padding:5px;">DIGITAL SIGNAL PROCESSING LAB</h1>
+			<marquee>
+				To verify FFT as Interpolator.
+			</marquee>
+		</div>
+    </center>
+	<div style="margin-left:5px">
+        <div class="col1" id="input">
+			<center>
+                <h2 style="background-color: #ccc; height:50px ; margin-top: 0px; padding-top: 7px;border: 3px solid #000000 ;font-weight:bold;">Input</h2>
+				<div class="f" id="f">
+					<p class="texts">Enter 2x2 size key matrix</p>
+					<input type="text" id="field00" size="3">
+					<input type="text" id="field01" size="3">
+					<br>
+					<input type="text" id="field10" size="3">
+					<input type="text" id="field11" size="3">
+					<br>
+					<p class="t">* Enter 2x2 size invertible matrix.</p>
+					<br>
+					<input type="Submit" onclick="displaykey()" value="Submit" name="display" class="btn btn-info">
+				</div>
+				<div class="f" id="f1">
+					<textarea id="f11" name="w3review" rows="3" cols="40" placeholder="Enter Plaintext"></textarea>
+					<br>
+					<br>
+					<input type="Submit" onclick="displaykey1()" id="Submit" name="display1" class="btn btn-info">
+				</div>
+				<div class="f" id="f2">
+					<br>
+					<input type="button" value="Next" id="next" onclick="next()" class="btn btn-info"><br><br>
+					<input type="button" value="Reset" id="reset" onclick="reset()" class="btn btn-info">
+				</div>
+				<div class="f" id="f3">
+					<br>
+					<input type="button" value="YES" id="yes" onclick="yes()" class="btn btn-info"><br><br>
+					<input type="button" value="NO" id="yes" onclick="no()" class="btn btn-info">
+				</div>
+				<div class="f" id="f4">
+					<br>
+					<input type="button" value="Reset" id="next" onclick="reset()" class="btn btn-info"><br><br>
+				</div>
+			</center>
         </div>
-    </section>
+        <div class="col2" id="logic">
+			<center>
+                <h2 style="background-color: #ccc; height:50px ; margin-top: 0px; padding-top: 7px;border: 3px solid #000000 ;font-weight:bold;">Step by Step logic</h2>
+            </center>
+			<div id="logic1" class="back">
+				<p class="p">
+					static void getKeyMatrix() <br>
+					{ <br><p class="colr">
+						&nbsp &nbsp int j;<br>
+						&nbsp &nbsp Scanner input = new Scanner(System.in);<br>
+						&nbsp &nbsp for (int i = 0; i < 2; i++) <br> 
+						&nbsp &nbsp { 
+						&nbsp &nbsp for (int j = 0; j < 2; j++)  <br>
+							&nbsp &nbsp &nbsp &nbsp{ <br>
+								 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp j= input.nextInt();<br>
+								&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp keyMatrix[i][j] = j <br>
+							&nbsp &nbsp &nbsp &nbsp} <br>
+						&nbsp &nbsp }</p>
+				<p class="p">
+					&nbsp &nbsp  }
+				</p>
+			</div>
+			<div id="logic2" class="back">
+				<p class="p">
+					public static void main(String[] args) <br>
+					{<br>
+						&nbsp &nbsp getKeyMatrix();<br>
+						&nbsp &nbsp if(keyMatrix[0][0]*keyMatrix[1][1]-keyMatrix[0][1]*keyMatrix[1][0])<br>
+						&nbsp &nbsp{<br>
+						&nbsp &nbsp &nbsp &nbsp System.out.print("Please enter invertible matrix");<br>
+						&nbsp &nbsp}<br>
+						&nbsp &nbsp else<br>
+						&nbsp &nbsp {
+						
+						
+						</p>
+						<p class="colr">
+						&nbsp &nbsp &nbsp &nbsp Scanner sc= new Scanner(System.in);<br>
+						&nbsp &nbsp &nbsp &nbsp String plaintext=sc.nextLine();</p>
+						<p class="p">
+						&nbsp &nbsp &nbsp &nbsp &nbsp HillCipher(plaintext); <br>
+						&nbsp &nbsp &nbsp &nbsp }<br>
+					} </p>
+				</p>
+			</div>
+			<div id="logic3" class="back">
+				<p class="p">Use next button to get the logical explaination.</p>
+			</div>
+			<div id="logic4" class="back">
+				<p class="p">
+					static void HillCipher(String message) <br>
+					{</p>
+					<p class="colr">
+					&nbsp &nbsp 	if(message.length()%2!=0){<br>
+					
+					&nbsp &nbsp &nbsp &nbsp 		message=message.concat("X");<br>
+					&nbsp &nbsp 	}<br>
+					&nbsp &nbsp	encrypt(message);<br>
+					&nbsp &nbsp 	System.out.print(" Ciphertext:" + CipherText);<br>
+					</p>
+					<p class="p">
+					&nbsp &nbsp System.out.print("Do you want to go for decryption?");<br>
+					&nbsp &nbsp ScannerScanner sc= new Scanner(System.in);<br>
+					&nbsp &nbsp String decide=sc.nextLine();<br>
+					&nbsp &nbsp if(decide=="Y"){<br>
+					
+					&nbsp &nbsp &nbsp &nbsp decrypt(CipherText);<br>
+					&nbsp &nbsp }<br>
+					&nbsp &nbsp else<br>
+					&nbsp &nbsp {<br>
+					&nbsp &nbsp &nbsp &nbsp System.out.print("Thankyou! ..Hope you understand implementation of encryption using hill cipher.");<br>
+					&nbsp &nbsp }<br>
+					
+					} <br></p>
+				</p>
+			</div>
+			<div id="logic5" class="back">
+				<p class=p>
+					static void encrypt(String message) <br>
+					{ </p>
+						<p class="colr">
+						&nbsp &nbsp int x, i, j,pos=0;<br>
+						&nbsp &nbsp for(int k=0;k<(message.length())/2;k++)<br>
+						&nbsp &nbsp {	<br>
+						&nbsp &nbsp &nbsp &nbsp 	messageVector[0][0]=int(message[pos]);<br>
+						&nbsp &nbsp &nbsp &nbsp 	messageVector[1][0]=int(message[pos+1]);<br>
+						&nbsp &nbsp &nbsp &nbsp 	for (i = 0; i < 2; i++){  <br>
+						 
+						&nbsp &nbsp &nbsp &nbsp 		for (j = 0; j < 1;j++){<br>
+						
+						&nbsp &nbsp &nbsp  cipherMatrix[i][j] = 0; <br>		  
+						&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 			for (x = 0; x < 2; x++) <br>
+						&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 			{ <br>
+						&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 				cipherMatrix[i][j] += keyMatrix[i][x] * messageVector[x][j]; <br>
+						&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 			} <br>
+								  
+						&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 			cipherMatrix[i][j] = cipherMatrix[i][j] % 26;<br>
+						&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 			CipherText+=charAt(cipherMatrix[i][j]+65);<br>
+						&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 		} <br>
+						&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 	pos=pos+2;<br>
+						&nbsp &nbsp &nbsp &nbsp }<br></p>
+						<p class="p">
+					} <br>
+				</p>
+			</div>
+			<div id="logic6"class="back">
+				<p class="p">Do you want to decrypt the generated cipher text?</p>
+			</div>
+			<div id="logic7"class="back">
+			<p class="p">
+				static void HillCipher(String message) <br>
+					{
+				
+					&nbsp &nbsp 	if(message.length()%2!=0){<br>
+					
+					&nbsp &nbsp &nbsp &nbsp 		message=message.concat("X");<br>
+					&nbsp &nbsp 	}<br>
+					&nbsp &nbsp	encrypt(message);<br>
+					&nbsp &nbsp 	System.out.print(" Ciphertext:" + CipherText);<br>
+				
+					
+					&nbsp &nbsp System.out.print("Do you want to go for decryption?");<br>
+					&nbsp &nbsp ScannerScanner sc= new Scanner(System.in);<br>
+					&nbsp &nbsp String decide=sc.nextLine();<br>
+					&nbsp &nbsp if(decide=="Y"){<br>
+					
+					&nbsp &nbsp &nbsp &nbsp decrypt(CipherText);<br>
+					&nbsp &nbsp }</p>
+					<p class="colr">
+					&nbsp &nbsp else<br>
+					&nbsp &nbsp {<br>
+					&nbsp &nbsp &nbsp &nbsp System.out.print("Thankyou! ..Hope you understand implementation of encryption using hill cipher.");<br>
+					&nbsp &nbsp }</p>
+					<p class="p">
+					
+					} <br></p>
+			</div>
+			<div id="logic8"class="back">
+				<p class=p>
+					static void decrypt() <br>
+					{ </p>
+						<p class="colr">
+						&nbsp &nbsp inverse();
+						&nbsp &nbsp int x, i, j,pos=0;<br>
+						&nbsp &nbsp for(int k=0;k<(CipherText.length())/2;k++)<br>
+						&nbsp &nbsp {	<br>
+						&nbsp &nbsp &nbsp &nbsp 	cipherVector[0][0]=int(CipherText[pos]);<br>
+						&nbsp &nbsp &nbsp &nbsp 	cipherVector[1][0]=int(CipherText[pos+1]);<br>
+						&nbsp &nbsp &nbsp &nbsp 	for (i = 0; i < 2; i++){  <br>
+						 
+						&nbsp &nbsp &nbsp &nbsp 		for (j = 0; j < 1;j++){<br>
+						
+						&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp PlainMatrix[i][j]=0;
+						&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 			for (x = 0; x < 2; x++) <br>
+						&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 			{ <br>
+						&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 				PlainMatrix[i][j] += decryptMatrix[i][x] * cipherVector[x][j]; <br>
+						&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 			} <br>
+								  
+						&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 			PlainMatrix[i][j] =PlainMatrix[i][j] % 26;<br>
+						&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 			Plainreturn=charAt(PlainMatrixMatrix[i][j]+65);<br>
+						&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 		} <br>
+						&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 	pos=pos+2;<br>
+						&nbsp &nbsp &nbsp &nbsp }<br></p>
+						<p class="p">
+					} <br>
+				</p>
+			</div>
+			<div id="pst" class="back">
+				<p class="p">
+					public static void main(String[] args) <br>
+					{<br>
+						&nbsp &nbsp getKeyMatrix();</p>
+						<p class="colr">
+						&nbsp &nbsp if(keyMatrix[0][0]*keyMatrix[1][1]-keyMatrix[0][1]*keyMatrix[1][0])<br>
+						&nbsp &nbsp{<br>
+						&nbsp &nbsp &nbsp &nbsp System.out.print("Please enter invertible matrix");<br>
+						&nbsp &nbsp}</p>
+						<p class="p">
+						&nbsp &nbsp else<br>
+						&nbsp &nbsp {
+						
+						
+					
+					
+						&nbsp &nbsp &nbsp &nbsp Scanner sc= new Scanner(System.in);<br>
+						&nbsp &nbsp &nbsp &nbsp String plaintext=sc.nextLine();<br>
+						&nbsp &nbsp &nbsp &nbsp &nbsp HillCipher(plaintext); <br>
+						&nbsp &nbsp &nbsp &nbsp }<br>
+					} 
+				</p>
+			</div>
+			
+		</div>
+        <div class="col3" id="output">
+			<center>
+				<h2 style="background-color: #ccc; height:50px ; margin-top: 0px; padding-top: 7px;border: 3px solid #000000; font-weight:bold ;">Output</h2>
+				<div id="display" class="dis">
+					<p>Key matrix entered by user:</p>
+					<table border=1>
+						<tr>
+							<td id="00"></td>
+							<td id="01"></td>
+						</tr>
+						<tr>
+							<td id="10"></td>
+							<td id="11"></td>
+						</tr>
+					</table>
+				</div>
+				<div id="displayopt" class="dis">
+					<p>Please enter invertible matrix</p>
+				</div>
+				<div id="display1" class="dis">
+					<p>Plaintext entered by user:<span id="pl"></span></p>
+				</div>
+				<div id="display2" class="dis">
+					<p>Cipher text:<span id="ci"></span></p>
+				</div>
+				<div id="display3" class="dis">
+					<p>Plaintext corresponding to generated cipher text:<span id="cl"></span></p>
+				</div>
+				<div id="display4" class="dis">
+					<p>Thankyou! ..Hope you understand implementation of encryption using hill cipher.</p> 
+				</div>
+			<center>
+		</div>
+    </div>
 </body>
+<script src="js/script.js"></script>
 </html>
 
+    

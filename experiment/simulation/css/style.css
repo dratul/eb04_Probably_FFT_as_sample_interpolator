@@ -1,253 +1,83 @@
+.header{
+            float: left;
+			width: 98%;
+			padding: 10px;
+			height:40px;
+			border: medium solid #000000;
+			border-radius: 20%;
+			margin: 1px;
+        }
+        .col1{
+            float: left;
+            width: 24%;
+            padding: 10px;
+            height: 600px;
+            border: medium solid black;
+			border-radius: 2%;
+            margin: 1px;
+        }
+        .col2{
+                float: left;
+				width: 45%;
+				padding: 10px;
+				height: 600px;
+				border: medium solid black;
+				border-radius: 2%;
+				margin: 1px;
+        }
 
-body{
-    background-color: #000000;
-    
-}
-.head{
-    color: #ffffff;
-    text-align: center;
-}
-.flex-container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    background-size: cover;
-    background-color: #000000;
-    height: 100vh;
-    margin: 1%;
-}
-.left{
-    width: 90%;
-    height: 15%;
-    margin: 1%;
-    padding: 2%;
-    background-color: #2F4F4F;
-    border: 5px solid #0e3b2c;
-    border-radius: 20px;
-}
-.middle{
-    width: 30%;
-    margin: 1%;
-    height: 92%;
-    background-color: #2F4F4F;
-    border: 5px solid #0e3b2c;
-    border-radius: 20px;
-}
-
-#sContainer {
-    position: relative;
-    width: 62%;
-    margin: 1%;
-    height: 65%;
-}
-
-#outerCanvas {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: 20;
-    top: 0;
-    left: 0;
-}
-
-.right{
-    background-color: #2F4F4F;
-    border: 5px solid #0e3b2c;
-    border-radius: 20px;
-    z-index: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 130%;
-}
-
-.bt-group {
-    margin: 0 auto;
-    display: block;
-    text-align: center;
-}
-
-.error-text {
-    text-align: center;
-    color: red;
-}
-
-.sel_button {
-    border: 2px solid navy;
-}
-
-button{
-    margin: 1%;
-    padding: 1%;
-    line-height: 5%;
-    height: 10%;
-    font-size: 95%; 
-    border: 2px solid #000000;
-    background-color:wheat;
-    border-radius: 5px;
-    text-align: center;
-}
-
-h1{
-    font-size: 200%;
-    color: #ffffff;
-}
-h3{
-    text-align: center;
-    font-size: 150%;   
-    margin-top: 0em;
-    text-decoration: underline;
-}
-li{
-    color: #ffffff;
-    
-}
-img{
-    height: 70%;
-    width: 30%;
-    margin: 1%;
-    float: right;
-    border: 2px solid #000000;
-}
-#myCanvas{
-    margin: 1%;
-    width: 60%;
-    height: 70%;
-    border: 1px solid #ffffff;
-    fill: #000000;
-}
-
-.codelinefirst {
-    color: #ffffff;
-    font-weight: bold;
-    margin-left: 5%;
-}
-
-.codeline {
-    color: #ffffff;
-    font-weight: bold;
-    margin-left: 35%;
-}
-
-@media only screen and (max-width: 900px){
-    .left{
-        width: 90%;
-        height: 20%;
-        margin: 0.5%;
-        padding: 2%;
-        background-color: #2F4F4F;
-        border: 5px solid #0e3b2c;
-        border-radius: 20px;
-    }
-    .middle{
-        width: 80%;
-        margin: 0.5%;
-        height: 65%;
-        background-color: #2F4F4F;
-        border: 5px solid #0e3b2c;
-        border-radius: 20px;
-    }
-    .right{
-        width: 110%;
-        margin: 1%;
-        height: 60%;
-        background-color: #2F4F4F;
-        border: 5px solid #0e3b2c;
-        border-radius: 20px;
-    
-    }
-    button{
-        margin: 1%;
-        padding: 2%;
-        line-height: 5%;
-        height: 12%;
-        font-size: 95%; 
-        border: 2px solid #000000;
-        background-color:wheat;
-        border-radius: 5px;
-        text-align: center;
-    
-    }
-    img{
-        height: 70%;
-        width: 30%;
-        margin: 3%;
-        float: right;
-        border: 2px solid #000000;
-    }
-    #myCanvas{
-        margin: 3%;
-        width: 55%;
-        height: 70%;
-        border: 1px solid #ffffff;
-        fill: #000000;
-    }
-    h3{
-        font-size: 120%;
-        text-align: center;   
-        margin-top: 0em;
-        text-decoration: underline;
-    }
+        .col3{
+			float: left;
+            width: 24%;
+            padding: 10px;
+            height: 600px;
+            border: medium solid black;
+			border-radius: 2%;
+            margin: 1px;
+        }
+		.texts
+		{
+			font-family:sans-serif;
+			font-size:15px;
+		}
+		.f input[type="Submit"],input[type="button"]{
+			background-color: #4CAF50;
+			border:3px solid black;
+			border-radius:15px;
+			color: white;
+			padding: 15px 32px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			width:120px;
+		}
+		.t{
+			color:red;
+			font-size:14px;
+		}
+.back
+{
+background-color:rgba(105,105,105,.3);
+font-size:20px;
+font-weigth:bold;
+margin-left:7px;
+margin-right:7px;
+border:3px solid black;
+font-weight: 600;
 
 }
-@media only screen and (max-width: 600px){
-    .left{
-        width: 90%;
-        height: 20%;
-        margin: 1%;
-        padding: 2%;
-        background-color: #2F4F4F;
-        border: 5px solid #0e3b2c;
-        border-radius: 20px;
-    }
-    .middle{
-        width: 90%;
-        margin: 1%;
-        height: 70%;
-        background-color: #2F4F4F;
-        border: 5px solid #0e3b2c;
-        border-radius: 20px;
-    }
-    .right{
-        width: 110%;
-        margin: 1%;
-        height: 60%;
-        background-color: #2F4F4F;
-        border: 5px solid #0e3b2c;
-        border-radius: 20px;
-    }
-    button{
-        margin: 1%;
-        padding: 2%;
-        line-height: 5%;
-        height: 10%;
-        font-size: 95%; 
-        border: 2px solid #000000;
-        background-color:wheat;
-        border-radius: 5px;
-        text-align: center;
-    }
-    h3{
-        text-align: center;
-        font-size: 120%;   
-        margin-top: 0em;
-        text-decoration: underline;
-    }
-    img{
-        height: 70%;
-        width: 30%;
-        margin: 2%;
-        float: right;
-        border: 2px solid #000000;
-        
-    }
-
-    #myCanvas{
-        margin: 2%;
-        width: 55%;
-        height: 70%;
-        border: 1px solid #ffffff;
-        fill: #000000;
-    }
+.p
+{
+margin-left:20px;
+color: darkgreen;
 }
+.colr
+{
+color: red;
+margin-left:20px;
+}
+.dis{
+	font-weight:300;
+}
+	
